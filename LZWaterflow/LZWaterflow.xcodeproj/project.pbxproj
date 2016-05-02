@@ -9,23 +9,40 @@
 /* Begin PBXBuildFile section */
 		181CD5B51CD6ECDA00916D39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD5B41CD6ECDA00916D39 /* main.m */; };
 		181CD5B81CD6ECDA00916D39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD5B71CD6ECDA00916D39 /* AppDelegate.m */; };
-		181CD5BB1CD6ECDA00916D39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD5BA1CD6ECDA00916D39 /* ViewController.m */; };
 		181CD5BE1CD6ECDA00916D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181CD5BC1CD6ECDA00916D39 /* Main.storyboard */; };
 		181CD5C01CD6ECDA00916D39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181CD5BF1CD6ECDA00916D39 /* Assets.xcassets */; };
 		181CD5C31CD6ECDA00916D39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181CD5C11CD6ECDA00916D39 /* LaunchScreen.storyboard */; };
+		181CD5CB1CD7238B00916D39 /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 181CD5CA1CD7238B00916D39 /* 1.plist */; };
+		181CD5D21CD723F700916D39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD5CF1CD723F700916D39 /* ViewController.m */; };
+		181CD5D51CD7243400916D39 /* LZShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD5D41CD7243400916D39 /* LZShop.m */; };
+		181CD5D91CD7248A00916D39 /* LZShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD5D71CD7248A00916D39 /* LZShopCell.m */; };
+		181CD5DA1CD7248A00916D39 /* LZShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181CD5D81CD7248A00916D39 /* LZShopCell.xib */; };
+		181CD5DD1CD7383F00916D39 /* LZWaterflowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD5DC1CD7383F00916D39 /* LZWaterflowLayout.m */; };
+		2598889FCDF1404098FEBC8E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0795F41979568EE2CE6652 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D0795F41979568EE2CE6652 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		181CD5B01CD6ECDA00916D39 /* LZWaterflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZWaterflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181CD5B41CD6ECDA00916D39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		181CD5B61CD6ECDA00916D39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		181CD5B71CD6ECDA00916D39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		181CD5B91CD6ECDA00916D39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		181CD5BA1CD6ECDA00916D39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		181CD5BD1CD6ECDA00916D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		181CD5BF1CD6ECDA00916D39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181CD5C21CD6ECDA00916D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181CD5C41CD6ECDA00916D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181CD5CA1CD7238B00916D39 /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		181CD5CE1CD723F700916D39 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		181CD5CF1CD723F700916D39 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		181CD5D31CD7243400916D39 /* LZShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZShop.h; sourceTree = "<group>"; };
+		181CD5D41CD7243400916D39 /* LZShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZShop.m; sourceTree = "<group>"; };
+		181CD5D61CD7248A00916D39 /* LZShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZShopCell.h; sourceTree = "<group>"; };
+		181CD5D71CD7248A00916D39 /* LZShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZShopCell.m; sourceTree = "<group>"; };
+		181CD5D81CD7248A00916D39 /* LZShopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZShopCell.xib; sourceTree = "<group>"; };
+		181CD5DB1CD7383F00916D39 /* LZWaterflowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZWaterflowLayout.h; sourceTree = "<group>"; };
+		181CD5DC1CD7383F00916D39 /* LZWaterflowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZWaterflowLayout.m; sourceTree = "<group>"; };
+		5B0E7FD047E2D47AEFC2FB12 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		93175CC96D204DCA80A83F30 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2598889FCDF1404098FEBC8E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +62,8 @@
 			children = (
 				181CD5B21CD6ECDA00916D39 /* LZWaterflow */,
 				181CD5B11CD6ECDA00916D39 /* Products */,
+				2EA0D2C5D210848F0D2FE509 /* Pods */,
+				CA4DF9B6A6F07F668278FB36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +78,13 @@
 		181CD5B21CD6ECDA00916D39 /* LZWaterflow */ = {
 			isa = PBXGroup;
 			children = (
+				181CD5CC1CD723F700916D39 /* Classes */,
 				181CD5B61CD6ECDA00916D39 /* AppDelegate.h */,
 				181CD5B71CD6ECDA00916D39 /* AppDelegate.m */,
-				181CD5B91CD6ECDA00916D39 /* ViewController.h */,
-				181CD5BA1CD6ECDA00916D39 /* ViewController.m */,
 				181CD5BC1CD6ECDA00916D39 /* Main.storyboard */,
 				181CD5BF1CD6ECDA00916D39 /* Assets.xcassets */,
 				181CD5C11CD6ECDA00916D39 /* LaunchScreen.storyboard */,
+				181CD5CA1CD7238B00916D39 /* 1.plist */,
 				181CD5C41CD6ECDA00916D39 /* Info.plist */,
 				181CD5B31CD6ECDA00916D39 /* Supporting Files */,
 			);
@@ -79,6 +99,63 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		181CD5CC1CD723F700916D39 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				181CD5CD1CD723F700916D39 /* Controller */,
+				181CD5D01CD723F700916D39 /* Model */,
+				181CD5D11CD723F700916D39 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		181CD5CD1CD723F700916D39 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				181CD5CE1CD723F700916D39 /* ViewController.h */,
+				181CD5CF1CD723F700916D39 /* ViewController.m */,
+				181CD5DB1CD7383F00916D39 /* LZWaterflowLayout.h */,
+				181CD5DC1CD7383F00916D39 /* LZWaterflowLayout.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		181CD5D01CD723F700916D39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				181CD5D31CD7243400916D39 /* LZShop.h */,
+				181CD5D41CD7243400916D39 /* LZShop.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		181CD5D11CD723F700916D39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				181CD5D61CD7248A00916D39 /* LZShopCell.h */,
+				181CD5D71CD7248A00916D39 /* LZShopCell.m */,
+				181CD5D81CD7248A00916D39 /* LZShopCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2EA0D2C5D210848F0D2FE509 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E7FD047E2D47AEFC2FB12 /* Pods.debug.xcconfig */,
+				93175CC96D204DCA80A83F30 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA4DF9B6A6F07F668278FB36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D0795F41979568EE2CE6652 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 181CD5C71CD6ECDA00916D39 /* Build configuration list for PBXNativeTarget "LZWaterflow" */;
 			buildPhases = (
+				6D18A87FE7BE1846B8410286 /* Check Pods Manifest.lock */,
 				181CD5AC1CD6ECDA00916D39 /* Sources */,
 				181CD5AD1CD6ECDA00916D39 /* Frameworks */,
 				181CD5AE1CD6ECDA00916D39 /* Resources */,
+				D9BA77AAA3F88752B7AE185C /* Embed Pods Frameworks */,
+				91123108D4D883C414CE26A6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,20 +220,73 @@
 			files = (
 				181CD5C31CD6ECDA00916D39 /* LaunchScreen.storyboard in Resources */,
 				181CD5C01CD6ECDA00916D39 /* Assets.xcassets in Resources */,
+				181CD5CB1CD7238B00916D39 /* 1.plist in Resources */,
+				181CD5DA1CD7248A00916D39 /* LZShopCell.xib in Resources */,
 				181CD5BE1CD6ECDA00916D39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D18A87FE7BE1846B8410286 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91123108D4D883C414CE26A6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9BA77AAA3F88752B7AE185C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		181CD5AC1CD6ECDA00916D39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181CD5BB1CD6ECDA00916D39 /* ViewController.m in Sources */,
+				181CD5D21CD723F700916D39 /* ViewController.m in Sources */,
 				181CD5B81CD6ECDA00916D39 /* AppDelegate.m in Sources */,
 				181CD5B51CD6ECDA00916D39 /* main.m in Sources */,
+				181CD5D51CD7243400916D39 /* LZShop.m in Sources */,
+				181CD5D91CD7248A00916D39 /* LZShopCell.m in Sources */,
+				181CD5DD1CD7383F00916D39 /* LZWaterflowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +394,7 @@
 		};
 		181CD5C81CD6ECDA00916D39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0E7FD047E2D47AEFC2FB12 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LZWaterflow/Info.plist;
@@ -272,6 +406,7 @@
 		};
 		181CD5C91CD6ECDA00916D39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93175CC96D204DCA80A83F30 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LZWaterflow/Info.plist;
@@ -300,6 +435,7 @@
 				181CD5C91CD6ECDA00916D39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
